@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto Regular"),
+    local("Roboto-Regular"),
+    url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Bitter";
+    src: local("Bitter Regular"),
+    local("Bitter-Regular"),
+    url("../fonts/Bitter/static/Bitter-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("PlayfairDisplay Regular"),
+    local("Playfair Display Regular"),
+    local("PlayfairDisplay-Regular"),
+    local("Playfair-Display-Regular"),
+    url("../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+.headerNav {
+    font-weight: 500;
+    text-align: center;
+}
+
+.modStudioSectionTitle {
+    font-family: 'Playfair Display';
+    font-size: 3.6rem;
+    line-height: 3.7rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.modStudioSectionParagraph {
+    font-family: 'Roboto';
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.biographySectionSubtitle, .testimonialsSectionSubtitle {
+    font-weight: 700;
+    text-align: right;
+}
+
+.biographySectionHeroName {
+    font-family: 'Playfair Display';
+    font-size: 3.6rem;
+    line-height: 4.1rem;
+}
+
+.biographySectionHeroPosition, .biographySectionHeroSkills {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+}
+
+.biographySectionHeroQuote {
+    font-family: "Bitter";
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+
+.designersSectionSubtitle, .strongpointsSectionSubtitle {
+    font-weight: 700;
+}
+
+.testimonialsSectionLinks {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+
+.testimonialsSectionQuote {
+    font-family: "Bitter";
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
+
+.strongpointsSectionStrengthsListname {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 3.1rem;   
+}
+
+.strongpointsSectionStrengthsList {
+    font-family: "Bitter";
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.45rem;
+}
