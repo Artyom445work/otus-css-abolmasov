@@ -24,6 +24,13 @@
     font-weight: normal;
 }
 
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    box-sizing: border-box;
+}
+
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -32,7 +39,7 @@ html {
 
 .headerNav {
     font-weight: 500;
-    text-align: center;
+    text-align: right;
 }
 
 .modStudioSectionTitle {
@@ -41,6 +48,7 @@ html {
     line-height: 3.7rem;
     font-weight: 500;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .modStudioSectionParagraph {
@@ -104,4 +112,37 @@ html {
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.45rem;
+}
+
+.headerWrapper {
+    margin: 67.5px 20px;
+}
+
+.headerLink {
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.modStudioSection {
+    background-color: #d9cacb;
+    background-image: url("../img/inside-weather-Uxqlfigh6oE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 280px;
+    padding-bottom: 270px;
+    margin-bottom: 270px;
+}
+
+.modStudioSectionWrapper {
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.modStudioSectionBox {
+    padding-top: 260px;
+    padding-bottom: 180px;
+    text-align: center;
+    background-color: white;
 }
