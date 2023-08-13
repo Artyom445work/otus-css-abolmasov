@@ -100,6 +100,8 @@ html {
 
 .designersSectionSubtitle, .strongpointsSectionSubtitle {
     font-weight: 700;
+    font-size: 0.8em;
+    padding-left: 110px;
 }
 
 .testimonialsSectionLinks {
@@ -223,4 +225,49 @@ html {
 .testimonialsSectionSubtitle {
     transform: rotate(270deg);
     font-size: 1.3rem;
+}
+
+.designersSectionBox {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: flex-start;
+    align-items: start;
+    justify-items: start;
+    overflow-x: scroll;
+    padding: 20px 16px;
+    gap: 15px;
+}
+
+.designerBlock {
+    padding-top: 80px;
+}
+
+.designerDescription {
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+    padding-top: 10px;
+}
+
+#designers {
+    padding-top: 110px;
+    
+}
+
+.JessWonderImg {
+    width: 450px;
+}
+
+.KameronCleinImg {
+    width: 262px;
+}
+
+.LouisseRedImg {
+    width: 258px;
+}
+
+.mainDesignerDescription {
+    padding-top: 10px;
+    padding-left: 190px;
+    font-size: 0.5rem;
+    line-height: 0.7rem;
 }
