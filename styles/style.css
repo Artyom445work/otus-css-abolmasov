@@ -205,7 +205,7 @@ html {
 
 .testimonialsSectionBox {
     display: grid;
-    grid-template-columns: 4% 16% 5% 10%;
+    grid-template-columns: 4% 20% 5% 10%;
     gap: 1%;
     justify-content: center;
     margin: auto;
