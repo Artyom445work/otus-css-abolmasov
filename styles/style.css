@@ -101,7 +101,8 @@ html {
 .designersSectionSubtitle, .strongpointsSectionSubtitle {
     font-weight: 700;
     font-size: 0.8em;
-    padding-left: 110px;
+    grid-column: 2 / 3;
+
 }
 
 .testimonialsSectionLinks {
@@ -233,7 +234,7 @@ html {
     justify-content: flex-start;
     align-items: start;
     justify-items: start;
-    overflow-x: scroll;
+    overflow-x: auto;
     padding: 20px 16px;
     gap: 15px;
 }
@@ -250,7 +251,8 @@ html {
 
 #designers {
     padding-top: 110px;
-    
+    display: grid;
+    justify-content: center;
 }
 
 .JessWonderImg {
@@ -270,4 +272,9 @@ html {
     padding-left: 190px;
     font-size: 0.5rem;
     line-height: 0.7rem;
+}
+
+.designersSectionSubtitleBox {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
