@@ -209,18 +209,18 @@ html {
 .testimonialsSectionBox {
     padding-top: 80px;
     display: grid;
-    grid-template-columns: 7% 40% 3% 40%;
+    grid-template-columns: 5% 35% 5% 30%;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
     margin: auto;
-    width: 45%;
+    max-width: 920px;
 }
 
 .testimonialsSectionQuoteBox {
     display: grid;
     padding-top: 32px;
-    justify-content: center;
+    justify-content: right;
 }
 
 .testimonialsSectionSubtitleBox {
@@ -235,6 +235,7 @@ html {
 
 .testimonialsSectionMainImgBox {
     width: 355px;
+    padding-left: 20px;
 }
 
 .testimonialsSectionQuoteImg {
