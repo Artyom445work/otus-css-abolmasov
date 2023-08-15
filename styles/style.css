@@ -98,10 +98,17 @@ html {
     font-size: 2.5rem;
 }
 
-.designersSectionSubtitle, .strongpointsSectionSubtitle {
+.designersSectionSubtitle {
     font-weight: 700;
     font-size: 0.8em;
     grid-column: 2 / 3;
+
+}
+
+.strongpointsSectionSubtitle {
+    font-weight: 700;
+    font-size: 0.8em;
+    padding-left: 175px;
 
 }
 
@@ -123,15 +130,19 @@ html {
 .strongpointsSectionStrengthsListname {
     font-family: 'Playfair Display';
     font-weight: 500;
-    font-size: 3.6rem;
-    line-height: 3.1rem;   
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .strongpointsSectionStrengthsList {
     font-family: "Bitter";
     font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.45rem;
+    font-size: 1.1rem;
+    line-height: 1.31rem;
+    list-style-type: none;
+    padding-left: 60px;
 }
 
 .headerWrapper {
@@ -291,4 +302,50 @@ html {
 .designersSectionSubtitleBox {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+}
+
+#strongpoints {
+    padding: 110px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.strongpointsSectionSubtitle {
+    padding-bottom: 20px;
+}
+
+.strongpointsSectionBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    justify-items: start;
+    overflow-x: auto;
+    gap: 17px;
+}
+
+@supports (display: grid) {
+    .strongpointsSectionBox {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        justify-content: flex-start;
+        align-items: start;
+        justify-items: start;
+        overflow-x: auto;
+        gap: 17px;
+    }
+
+    #strongpoints {
+        padding: 110px 16px;
+        display: grid;
+        justify-content: center;
+    }
+}
+
+.strongPointsImg {
+    width: 250px;
+}
+
+.strongpointsSectionStrengthsListBox {
+    padding-left: 22px;
+    min-width: 325px;
 }
