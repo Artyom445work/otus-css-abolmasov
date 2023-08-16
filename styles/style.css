@@ -355,7 +355,7 @@ html {
     grid-template-columns: repeat(10, 1fr);
 }
 
-#strongpoints {
+.strongpointsSectionBoxWrapper {
     padding: 110px 16px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -367,7 +367,7 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    max-width: 1500px;
+    max-width: 1425px;
     margin: auto;
 }
 
@@ -407,7 +407,7 @@ html {
         gap: 17px;
     }
 
-    #strongpoints {
+    .strongpointsSectionBoxWrapper {
         padding: 110px 16px;
         display: -ms-grid;
         display: grid;
