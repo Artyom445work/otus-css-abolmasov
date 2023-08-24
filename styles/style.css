@@ -44,16 +44,17 @@ html {
 
 .modStudioSectionTitle {
     font-family: 'Playfair Display';
-    font-size: 3.6rem;
+    font-size: 2.8rem;
     line-height: 3.7rem;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom:5px;
+    margin-top: 85px;
 }
 
 .modStudioSectionParagraph {
     font-family: 'Roboto';
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     line-height: 0.8rem;
     font-weight: 500;
     text-align: center;
@@ -61,26 +62,40 @@ html {
 
 .biographySectionSubtitle, .testimonialsSectionSubtitle {
     font-weight: 700;
+    font-size: 0.8rem;
     text-align: right;
+    transform: rotate(270deg);
+}
+
+.biographySectionHeroBox {
+    order: 3;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
 }
 
 .biographySectionHeroName {
     font-family: 'Playfair Display';
-    font-size: 3.6rem;
+    font-size: 2.8rem;
     line-height: 4.1rem;
 }
 
-.biographySectionHeroPosition, .biographySectionHeroSkills {
+.biographySectionHeroSkills {
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     line-height: 0.75rem;
 }
 
 .biographySectionHeroQuote {
     font-family: "Bitter";
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 1.1rem;
+}
+
+.biographySectionHeroSeparator {
+    font-size: 2.5rem;
 }
 
 .designersSectionSubtitle, .strongpointsSectionSubtitle {
@@ -115,11 +130,12 @@ html {
 }
 
 .headerWrapper {
-    margin: 67.5px 20px;
+    margin: 37px -7px;
 }
 
 .headerLink {
-    padding: 30px;
+    padding:18px;
+    font-size: 0.8rem;
     text-decoration: none;
     color: black;
 }
@@ -130,19 +146,40 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 280px;
-    padding-bottom: 270px;
-    margin-bottom: 270px;
-}
-
-.modStudioSectionWrapper {
-    margin-right: 400px;
-    margin-left: 400px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    max-height: 500px;
+    display: flex;
 }
 
 .modStudioSectionBox {
-    padding-top: 260px;
-    padding-bottom: 180px;
-    text-align: center;
+    padding-bottom: 286px;
+    margin-top: -46px;
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
+}
+
+.biographySectionBox {
+    display: flex;
+    padding-top: 112.5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 920px;
+}
+
+.biographySectionImageBox {
+    order: 1;
+}
+
+.biographySectionSubtitleBox {
+    order: 2;
+    padding-top: 32px;
+    padding-right: 30px;
+}
+
+.KatyaMillsImg {
+    width: 450px;
 }
