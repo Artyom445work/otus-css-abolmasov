@@ -100,6 +100,9 @@ html {
 
 .designersSectionSubtitle, .strongpointsSectionSubtitle {
     font-weight: 700;
+    font-size: 0.8em;
+    grid-column: 2 / 3;
+
 }
 
 .testimonialsSectionLinks {
@@ -107,11 +110,14 @@ html {
     line-height: 0.7rem;
     display: grid;
     grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
 }
 
 .testimonialsSectionQuote {
     font-family: "Bitter";
     font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
     font-size: 1rem;
     line-height: 1.2rem;
     text-align: center;
@@ -237,4 +243,55 @@ html {
 
 .testimonialsSectionQuoteImg {
     width: 174px;
+}
+
+.designersSectionBox {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: flex-start;
+    align-items: start;
+    justify-items: start;
+    overflow-x: auto;
+    padding: 20px 16px;
+    gap: 15px;
+}
+
+.designerBlock {
+    padding-top: 80px;
+}
+
+.designerDescription {
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+    padding-top: 10px;
+}
+
+#designers {
+    padding-top: 110px;
+    display: grid;
+    justify-content: center;
+}
+
+.JessWonderImg {
+    width: 450px;
+}
+
+.KameronCleinImg {
+    width: 262px;
+}
+
+.LouisseRedImg {
+    width: 258px;
+}
+
+.mainDesignerDescription {
+    padding-top: 10px;
+    padding-left: 190px;
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+}
+
+.designersSectionSubtitleBox {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
