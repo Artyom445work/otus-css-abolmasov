@@ -38,6 +38,21 @@ html {
     line-height: 28.13px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    transition: color 1s ease;
+}
+
+a:focus {
+    color: red;
+    transition: color 1s ease;
+}
+
 .headerNav {
     font-weight: 500;
     text-align: right;
@@ -174,8 +189,7 @@ html {
 .headerLink {
     padding:18px;
     font-size: 0.8rem;
-    text-decoration: none;
-    color: black;
+    
 }
 
 .modStudioSection {
@@ -234,6 +248,11 @@ html {
     width: 450px;
 }
 
+.KatyaMillsImg:hover {
+    transform: skew(5deg);
+    transition: all 1s ease;
+}
+
 .testimonialsLink {
     -webkit-transform: rotate(270deg);
         -ms-transform: rotate(270deg);
@@ -242,11 +261,6 @@ html {
     display: -ms-grid;
     display: grid;
     font-size: 0.5rem;
-}
-
-.testimonialsLink a {
-    text-decoration: none;
-    color: black;
 }
 
 .testimonialsSectionBox {
