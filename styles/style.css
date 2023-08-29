@@ -449,12 +449,14 @@ a:focus {
         flex-direction: column;
         margin: auto;
         justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .biographySectionSubtitleBox {
         order: 1;
-        padding-top: none;
-        padding-right: none;
+        padding-top: 0px;
+        padding-right: 0px;
     }
 
     .biographySectionSubtitle {
@@ -499,7 +501,7 @@ a:focus {
         margin: auto;
         order: 2;
         width: 355px;
-        padding-left: none;
+        padding-left: 0px;
     }
 
     .testimonialsSectionSubtitleBox {
@@ -522,10 +524,38 @@ a:focus {
         order: 3;
         margin: auto;
     }
+
+    .KatyaMillsImg {
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .modStudioSectionBox {
-        width: 360px;
+        width: 330px;
+    }
+
+    .modStudioSectionTitle {
+        font-size: 2.5rem;
+    }
+
+    .modStudioSectionParagraph {
+        font-size: 0.6rem;
+    }
+
+    .testimonialsSectionLinks {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 100%;
+        order: 4;
+    }    
+}
+
+@media screen and (max-width: 411px) {
+    .testimonialsSectionMainImgBox {
+        width: 255px;
+    }
+    
+    .KatyaMillsImg {
+        width: 300px;
     }
 }
