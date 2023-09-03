@@ -38,6 +38,21 @@ html {
     line-height: 28.13px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    transition: color 1s ease;
+}
+
+a:focus {
+    color: red;
+    transition: color 1s ease;
+}
+
 .headerNav {
     font-weight: 500;
     text-align: right;
@@ -51,6 +66,7 @@ html {
     text-align: center;
     margin-bottom:5px;
     margin-top: 85px;
+    white-space: nowrap;
 }
 
 .modStudioSectionParagraph {
@@ -173,8 +189,7 @@ html {
 .headerLink {
     padding:18px;
     font-size: 0.8rem;
-    text-decoration: none;
-    color: black;
+    
 }
 
 .modStudioSection {
@@ -233,6 +248,11 @@ html {
     width: 450px;
 }
 
+.KatyaMillsImg:hover {
+    transform: skew(5deg);
+    transition: all 1s ease;
+}
+
 .testimonialsLink {
     -webkit-transform: rotate(270deg);
         -ms-transform: rotate(270deg);
@@ -241,11 +261,6 @@ html {
     display: -ms-grid;
     display: grid;
     font-size: 0.5rem;
-}
-
-.testimonialsLink a {
-    text-decoration: none;
-    color: black;
 }
 
 .testimonialsSectionBox {
@@ -427,4 +442,120 @@ html {
 .strongpointsSectionStrengthsListBox {
     padding-left: 22px;
     min-width: 325px;
+}
+
+@media screen and (max-width: 940px) {
+    .biographySectionBox {
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .biographySectionSubtitleBox {
+        order: 1;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    .biographySectionSubtitle {
+        font-weight: 700;
+        font-size: 0.8rem;
+        text-align: right;
+        transform: none;
+    }
+
+    .biographySectionHeroBox {
+        order: 2;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        margin: auto;
+    }
+
+    .biographySectionImageBox {
+        order: 3;
+        margin: auto;
+    }
+
+    .testimonialsSectionBox {
+        grid-template-rows: 3% 46% 46% 5%;
+        grid-template-columns: 100%;
+        padding-bottom: 20px;
+    }
+
+    .testimonialsSectionLinks {
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: 100%;
+        order: 4;
+    }
+
+    .testimonialsLink {
+        transform: none;
+    }
+
+    .testimonialsSectionMainImgBox {
+        margin: auto;
+        order: 2;
+        width: 355px;
+        padding-left: 0px;
+    }
+
+    .testimonialsSectionSubtitleBox {
+        display: initial;
+        grid-template-rows: none;
+        order: 1;
+    }
+
+    .testimonialsSectionSubtitle {
+        transform: none;
+        font-size: 0.8rem;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .testimonialsSectionQuoteBox {
+        display: grid;
+        padding-top: 32px;
+        justify-content: right;
+        order: 3;
+        margin: auto;
+    }
+
+    .KatyaMillsImg {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modStudioSectionBox {
+        width: 330px;
+    }
+
+    .modStudioSectionTitle {
+        font-size: 2.5rem;
+    }
+
+    .modStudioSectionParagraph {
+        font-size: 0.6rem;
+    }
+
+    .testimonialsSectionLinks {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 100%;
+        order: 4;
+    }    
+}
+
+@media screen and (max-width: 411px) {
+    .testimonialsSectionMainImgBox {
+        width: 255px;
+    }
+    
+    .KatyaMillsImg {
+        width: 300px;
+    }
 }
