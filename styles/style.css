@@ -53,6 +53,15 @@ a:focus {
     transition: color 1s ease;
 }
 
+.footerLink:focus, .footerLink:hover {
+    color: black;
+    transition: none;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}
+
 .headerNav {
     font-weight: 500;
     text-align: right;
@@ -105,6 +114,7 @@ a:focus {
     font-family: 'Playfair Display';
     font-size: 2.8rem;
     line-height: 4.1rem;
+    width: 200px;
 }
 
 .biographySectionHeroSkills {
@@ -118,6 +128,7 @@ a:focus {
     font-weight: 400;
     font-size: 0.9rem;
     line-height: 1.1rem;
+    max-width: 310px;
 }
 
 .biographySectionHeroSeparator {
@@ -158,6 +169,7 @@ a:focus {
     font-size: 1rem;
     line-height: 1.2rem;
     text-align: center;
+    width: 163px;
 }
 
 .strongpointsSectionStrengthsListname {
@@ -408,6 +420,10 @@ a:focus {
     gap: 17px;
 }
 
+.footerWrapper {
+    display: none;
+}
+
 @supports (display: grid) {
     .strongpointsSectionBox {
         display: -ms-grid;
@@ -442,6 +458,10 @@ a:focus {
 .strongpointsSectionStrengthsListBox {
     padding-left: 22px;
     min-width: 325px;
+}
+
+.modStudioSectionImg {
+    display: none;
 }
 
 @media screen and (max-width: 940px) {
@@ -528,6 +548,14 @@ a:focus {
     .KatyaMillsImg {
         width: 350px;
     }
+
+    .biographySectionHeroNamePrefix {
+        display: none;
+    }
+
+    .biographySectionHeroSkillsMobileDecor {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -553,9 +581,142 @@ a:focus {
 @media screen and (max-width: 411px) {
     .testimonialsSectionMainImgBox {
         width: 255px;
+        display: none;
     }
     
     .KatyaMillsImg {
-        width: 300px;
+        width: 100%;
+    }
+
+    .biographySectionBox {
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .biographySectionSubtitle {
+        margin-bottom: -15px;
+        padding-right: 20px;
+    }
+
+    .biographySectionHeroSkillsDesktopDecor {
+        display: none;
+    }
+
+    .biographySectionHeroSkillsMobileDecor {
+        display: inline;
+    }
+
+    .biographySectionHeroNamePrefix {
+        display: inline;
+    }
+
+    .biographySectionHeroSeparator {
+        display: none;
+    }
+
+    .biographySectionHeroBox {
+        display: grid;
+    }
+
+    .biographySectionHeroName {
+        order: 4;
+        font-size: 2.1rem;
+        line-height: 3.5rem;
+        width: 310px;
+    }
+
+    .biographySectionHeroSkills {
+        order: 1;
+        font-weight: 700;
+    }
+
+    .biographySectionHeroSeparator {
+        order: 3;
+        width: 20px;
+    }
+
+    .biographySectionHeroQuote {
+        order: 2;
+        padding: 30px 0;
+    }
+
+    .headerWrapper {
+        display: none;
+    }
+
+    .modStudioSection {
+        background-color: white;
+        background-image: none;
+        padding-top: 50px;
+        max-height: 750px;
+        display: grid;
+        grid-template-rows: 1% 99%;
+        justify-content: center;
+        padding-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .modStudioSectionBox {
+        margin-top: -16px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .modStudioSectionImg {
+        display: inline;
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+    }
+
+    .testimonialsSectionBox {
+        grid-template-rows: 5% 70% 12%;
+        padding: 40px 20px;
+        justify-content: center;
+    }
+
+    .testimonialsSectionQuoteImg {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .testimonialsSectionQuoteBox {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .testimonialsSectionQuote {
+        width: 270px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .strongpointsSectionSubtitle {
+        padding-left: 0px;
+    }
+
+    .strongpointsSectionStrengthsListBox {
+        order: 1;
+    }
+
+    .strongPointsImg {
+        order: 2;
+    }
+
+    .footerWrapper {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-items: center;
+        border-top: 1px solid black;
+        padding-top: 10px;
+    }
+
+    .footerLink {
+        font-family: "Bitter";
+        font-weight: 400;
+        font-size: 1.5rem;
+        transition: none
     }
 }
