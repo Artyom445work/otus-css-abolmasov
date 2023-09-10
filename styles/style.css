@@ -256,11 +256,11 @@ a:focus {
     padding-right: 30px;
 }
 
-.biography-image-box__katya-mills-img {
+.biography-image-box__img_katya-mills {
     width: 450px;
 }
 
-.biography-image-box__katya-mills-img:hover {
+.biography-image-box__img_katya-mills:hover {
     transform: skew(5deg);
     transition: all 1s ease;
 }
@@ -545,11 +545,11 @@ a:focus {
         margin: auto;
     }
 
-    .biography-image-box__katya-mills-img {
+    .biography-image-box__img_katya-mills {
         width: 350px;
     }
 
-    .biography-hero-box__skills-mobile-decor {
+    .biography-hero-box__skills_mobile-decor {
         display: none;
     }
 }
@@ -580,7 +580,7 @@ a:focus {
         display: none;
     }
     
-    .biography-image-box__katya-mills-img {
+    .biography-image-box__img_katya-mills {
         width: 100%;
     }
 
@@ -595,11 +595,11 @@ a:focus {
         padding-right: 20px;
     }
 
-    .biography-hero-box__skills-desktop-decor {
+    .biography-hero-box__skills_desktop-decor {
         display: none;
     }
 
-    .biography-hero-box__skills-mobile-decor {
+    .biography-hero-box__skills_mobile-decor {
         display: inline;
     }
 
