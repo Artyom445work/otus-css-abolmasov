@@ -201,7 +201,10 @@ a:focus {
 .header-nav__link {
     padding:18px;
     font-size: 0.8rem;
-    
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 500;
 }
 
 .mod-studio {
