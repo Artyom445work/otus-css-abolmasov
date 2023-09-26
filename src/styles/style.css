@@ -2,7 +2,7 @@
     font-family: "Roboto";
     src: local("Roboto Regular"),
     local("Roboto-Regular"),
-    url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 
@@ -464,6 +464,10 @@ a:focus {
     display: none;
 }
 
+.biography-hero-box__skills_mobile-decor {
+    display: none;
+}
+
 @media screen and (max-width: 940px) {
     .biography-box {
         flex-direction: column;
@@ -547,10 +551,6 @@ a:focus {
 
     .biography-image-box__img_katya-mills {
         width: 350px;
-    }
-
-    .biography-hero-box__skills_mobile-decor {
-        display: none;
     }
 }
 

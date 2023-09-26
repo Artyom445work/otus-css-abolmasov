@@ -4,13 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-dev": "webpack serve -c webpack.config.js",
+    "build-dev": "webpack -c webpack.config.js",
+    "start-prod": "webpack serve -c webpack.config.prod.js",
+    "build-prod": "webpack -c webpack.config.prod.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^6.8.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
     "http-server": "^14.1.1",
     "lodash": "^4.17.21",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }
