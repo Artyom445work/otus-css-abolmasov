@@ -333,7 +333,7 @@ a:focus {
             justify-content: flex-start;
     -webkit-box-align: start;
         -ms-flex-align: start;
-            align-items: start;
+            align-items: flex-start;
     justify-items: start;
     overflow-x: auto;
     padding: 20px 16px;
@@ -410,7 +410,7 @@ a:focus {
             justify-content: flex-start;
     -webkit-box-align: start;
         -ms-flex-align: start;
-            align-items: start;
+            align-items: flex-start;
     justify-items: start;
     overflow-x: auto;
     gap: 17px;
@@ -431,7 +431,7 @@ a:focus {
                 justify-content: flex-start;
         -webkit-box-align: start;
             -ms-flex-align: start;
-                align-items: start;
+                align-items: flex-start;
         justify-items: start;
         overflow-x: auto;
         gap: 17px;
