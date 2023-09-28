@@ -1,0 +1,34 @@
+{
+  "name": "otus-css-abolmasov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack serve -c webpack.config.js",
+    "build-dev": "webpack -c webpack.config.js",
+    "start-prod": "webpack serve -c webpack.config.prod.js",
+    "build-prod": "webpack -c webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "at-rule-packer": "^0.4.1",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^6.8.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "http-server": "^14.1.1",
+    "image-webpack-loader": "^8.1.0",
+    "lodash": "^4.17.21",
+    "postcss-deadcss": "^1.0.0",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.1.4",
+    "prettier": "^3.0.3",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

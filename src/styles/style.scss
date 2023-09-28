@@ -2,7 +2,7 @@
     font-family: "Roboto";
     src: local("Roboto Regular"),
     local("Roboto-Regular"),
-    url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 
@@ -333,7 +333,7 @@ a:focus {
             justify-content: flex-start;
     -webkit-box-align: start;
         -ms-flex-align: start;
-            align-items: start;
+            align-items: flex-start;
     justify-items: start;
     overflow-x: auto;
     padding: 20px 16px;
@@ -410,7 +410,7 @@ a:focus {
             justify-content: flex-start;
     -webkit-box-align: start;
         -ms-flex-align: start;
-            align-items: start;
+            align-items: flex-start;
     justify-items: start;
     overflow-x: auto;
     gap: 17px;
@@ -431,7 +431,7 @@ a:focus {
                 justify-content: flex-start;
         -webkit-box-align: start;
             -ms-flex-align: start;
-                align-items: start;
+                align-items: flex-start;
         justify-items: start;
         overflow-x: auto;
         gap: 17px;
@@ -461,6 +461,10 @@ a:focus {
 }
 
 .biography-hero-box__name-prefix {
+    display: none;
+}
+
+.biography-hero-box__skills_mobile-decor {
     display: none;
 }
 
@@ -547,10 +551,6 @@ a:focus {
 
     .biography-image-box__img_katya-mills {
         width: 350px;
-    }
-
-    .biography-hero-box__skills_mobile-decor {
-        display: none;
     }
 }
 
